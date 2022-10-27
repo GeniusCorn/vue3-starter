@@ -10,6 +10,7 @@ My personal Vue 3 + Vite Starter Template.
 - [Components Auto Import](https://github.com/antfu/unplugin-vue-components)
 - [File based routing](https://github.com/hannoeru/vite-plugin-pages)
 - [Layout System](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- State Management via [Pinia](https://pinia.vuejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - Always up to date
 
@@ -22,6 +23,7 @@ My personal Vue 3 + Vite Starter Template.
 - [Vue Router](https://router.vuejs.org/)
   - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
   - [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- [Pinia](https://pinia.vuejs.org/)
 
 ### Coding Style
 
@@ -57,7 +59,6 @@ pnpm build
 
 ## TODO
 
-- State Management
 - UI Frameworks
 - Icons
 - Unit testing and E2E testing
