@@ -11,6 +11,7 @@ My personal Vue 3 + Vite Starter Template.
 - [File based routing](https://github.com/hannoeru/vite-plugin-pages)
 - [Layout System](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
 - State Management via [Pinia](https://pinia.vuejs.org/)
+- Unit Testing with [Vitest](https://vitest.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - Always up to date
 
@@ -32,8 +33,9 @@ My personal Vue 3 + Vite Starter Template.
 
 ### Dev Tools
 
-- [TypeScript](https://www.typescriptlang.org/)
 - [pnpm](https://pnpm.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vitest](https://vitest.dev/)
 
 ## Usage
 
@@ -47,11 +49,15 @@ pnpm i
 
 ### Development
 
+Just run and visit <http://localhost:5173>
+
 ```sh
 pnpm dev
 ```
 
 ### Build
+
+To build the app, run
 
 ```sh
 pnpm build
@@ -61,5 +67,5 @@ pnpm build
 
 - UI Frameworks
 - Icons
-- Unit testing and E2E testing
+- E2E testing
 - Deploy on Netlify
