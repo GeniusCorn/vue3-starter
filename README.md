@@ -13,6 +13,7 @@ My personal Vue 3 + Vite Starter Template.
 - State Management via [Pinia](https://pinia.vuejs.org/)
 - Unit Testing with [Vitest](https://vitest.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- Deploy on [Netlify](https://www.netlify.com/), zero-config
 - Always up to date
 
 ## Pre-packed
@@ -36,6 +37,7 @@ My personal Vue 3 + Vite Starter Template.
 - [pnpm](https://pnpm.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://vitest.dev/)
+- [Netlify](https://www.netlify.com/)
 
 ## Usage
 
@@ -63,9 +65,12 @@ To build the app, run
 pnpm build
 ```
 
+## Deploy on Netlify
+
+Go to Netlify, add new site and import an existing project from your git repository, just click deploy site and the app will be live soon.
+
 ## TODO
 
 - UI Frameworks
 - Icons
 - E2E testing
-- Deploy on Netlify
