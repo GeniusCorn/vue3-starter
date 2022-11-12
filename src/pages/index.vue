@@ -1,7 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <HelloWorld />
+  <Counter />
 </template>
 
 <style scoped></style>
+
+<route lang="yaml">
+meta:
+  layout: home
+</route>
