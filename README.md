@@ -1,6 +1,6 @@
 # Vue 3 Starter
 
-My personal Vue 3 + Vite Starter Template.
+Vue 3 development template for building web applications quickly, integrating Vue 3, Vite, and popular libraries or development plugins.
 
 ## Features
 
@@ -10,6 +10,7 @@ My personal Vue 3 + Vite Starter Template.
 - [Components Auto Import](https://github.com/antfu/unplugin-vue-components)
 - [File based routing](https://github.com/hannoeru/vite-plugin-pages)
 - [Layout System](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- [UnoCSS](https://github.com/unocss/unocss)
 - State Management via [Pinia](https://pinia.vuejs.org/)
 - Unit Testing with [Vitest](https://vitest.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -26,6 +27,14 @@ My personal Vue 3 + Vite Starter Template.
   - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
   - [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
 - [Pinia](https://pinia.vuejs.org/)
+
+### UI Framework
+
+- [UnoCSS](https://github.com/unocss/unocss)
+
+### Icons
+
+- [Tabler](https://tabler-icons.io/) icons via UnoCSS
 
 ### Coding Style
 
@@ -71,6 +80,4 @@ Go to Netlify, add new site and import an existing project from your git reposit
 
 ## TODO
 
-- UI Frameworks
-- Icons
 - E2E testing
