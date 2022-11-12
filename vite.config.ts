@@ -2,6 +2,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Layouts from 'vite-plugin-vue-layouts'
 import Pages from 'vite-plugin-pages'
+import Unocss from 'unocss/vite'
 import Vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
 import path from 'path'
@@ -52,6 +53,8 @@ export default defineConfig({
       dts: true
     }),
     Pages(),
-    Layouts()
+    Layouts(),
+    // see unocss.config.ts for config
+    Unocss()
   ]
 })
