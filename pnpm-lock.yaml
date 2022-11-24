@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-json/tabler': ^1.1.47
+  '@iconify-json/tabler': ^1.1.48
   '@types/node': ^18.11.9
   '@typescript-eslint/eslint-plugin': ^5.44.0
   '@typescript-eslint/parser': ^5.44.0
@@ -14,9 +14,9 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-n: ^15.5.1
   eslint-plugin-promise: ^6.1.1
-  eslint-plugin-vue: ^9.7.0
+  eslint-plugin-vue: ^9.8.0
   happy-dom: ^7.7.0
-  pinia: ^2.0.25
+  pinia: ^2.0.26
   prettier: ^2.8.0
   typescript: '*'
   unocss: ^0.46.5
@@ -32,12 +32,12 @@ specifiers:
   vue-tsc: ^0.40.13
 
 dependencies:
-  pinia: 2.0.25_mgnvym7yiazkylwwogi5r767ue
+  pinia: 2.0.26_mgnvym7yiazkylwwogi5r767ue
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
 devDependencies:
-  '@iconify-json/tabler': 1.1.47
+  '@iconify-json/tabler': 1.1.48
   '@types/node': 18.11.9
   '@typescript-eslint/eslint-plugin': 5.44.0_fnsv2sbzcckq65bwfk7a5xwslu
   '@typescript-eslint/parser': 5.44.0_hsf322ms6xhhd4b5ne6lb74y4a
@@ -50,7 +50,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_vfrilbydaxalswvos6uuh4sxs4
   eslint-plugin-n: 15.5.1_eslint@8.28.0
   eslint-plugin-promise: 6.1.1_eslint@8.28.0
-  eslint-plugin-vue: 9.7.0_eslint@8.28.0
+  eslint-plugin-vue: 9.8.0_eslint@8.28.0
   happy-dom: 7.7.0
   prettier: 2.8.0
   typescript: 4.9.3
@@ -333,8 +333,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/tabler/1.1.47:
-    resolution: {integrity: sha512-J6agTAG9d/zjfK76dw+b4cwqOgWmTYvaRINpoGyyGTCdrJu5d4xAcwqdwQNnT7tz8VfrAfzr9TFcESpPzgjVMw==}
+  /@iconify-json/tabler/1.1.48:
+    resolution: {integrity: sha512-aEG/yXz2IGgP7mMwwHce+FzEL5zpA1A6Q/LaPXzT/VhKJFHwMeGjlgiLWbpUfk6b0xuuMy+txgHLcF4ROwpDEQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1823,8 +1823,8 @@ packages:
       eslint: 8.28.0
     dev: true
 
-  /eslint-plugin-vue/9.7.0_eslint@8.28.0:
-    resolution: {integrity: sha512-DrOO3WZCZEwcLsnd3ohFwqCoipGRSTKTBTnLwdhqAbYZtzWl0o7D+D8ZhlmiZvABKTEl8AFsqH1GHGdybyoQmw==}
+  /eslint-plugin-vue/9.8.0_eslint@8.28.0:
+    resolution: {integrity: sha512-E/AXwcTzunyzM83C2QqDHxepMzvI2y6x+mmeYHbVDQlKFqmKYvRrhaVixEeeG27uI44p9oKDFiyCRw4XxgtfHA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -2954,8 +2954,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia/2.0.25_mgnvym7yiazkylwwogi5r767ue:
-    resolution: {integrity: sha512-3reAkjJ6bW2D5hZKRMS0c9rUbHVlsVyZd037xO0PJr2AuF/09RRSBnFLlJgmHF4Jx6dEoW/jZBOHTushY7IMlw==}
+  /pinia/2.0.26_mgnvym7yiazkylwwogi5r767ue:
+    resolution: {integrity: sha512-tSxZNUcMGxQOvKZRjPKXxd2+/2NZhRF/CoYVE/+K6uE/Z3v1Oi4fcQFpxu5nMB1dCchjXUZ+lz0tBxV5ntwmQQ==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
