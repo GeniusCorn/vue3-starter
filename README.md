@@ -12,7 +12,7 @@ Vue 3 development template for building web applications quickly, integrating Vu
 - [Layout System](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
 - [UnoCSS](https://github.com/unocss/unocss)
 - State Management via [Pinia](https://pinia.vuejs.org/)
-- Unit Testing with [Vitest](https://vitest.dev/)
+- Unit Testing with [Vitest](https://vitest.dev/), E2E Testing with [Cypress](https://www.cypress.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - Deploy on [Netlify](https://www.netlify.com/), zero-config
 - Always up to date
@@ -46,6 +46,7 @@ Vue 3 development template for building web applications quickly, integrating Vu
 - [pnpm](https://pnpm.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://vitest.dev/)
+- [Cypress](https://www.cypress.io/)
 - [Netlify](https://www.netlify.com/)
 
 ## Usage
@@ -77,7 +78,3 @@ pnpm build
 ## Deploy on Netlify
 
 Go to Netlify, add new site and import an existing project from your git repository, just click deploy site and the app will be live soon.
-
-## TODO
-
-- E2E testing
