@@ -12,15 +12,15 @@
     "test": "vitest"
   },
   "dependencies": {
-    "pinia": "^2.0.27",
+    "pinia": "^2.0.28",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@iconify-json/tabler": "^1.1.50",
-    "@types/node": "^18.11.11",
-    "@typescript-eslint/eslint-plugin": "^5.45.1",
-    "@typescript-eslint/parser": "^5.45.1",
+    "@iconify-json/tabler": "^1.1.51",
+    "@types/node": "^18.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
     "@unocss/preset-uno": "^0.46.5",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitest/coverage-istanbul": "^0.24.5",
@@ -32,8 +32,8 @@
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.8.0",
-    "happy-dom": "^7.7.2",
-    "prettier": "^2.8.0",
+    "happy-dom": "^7.8.1",
+    "prettier": "^2.8.1",
     "typescript": "*",
     "unocss": "^0.46.5",
     "unplugin-auto-import": "^0.11.5",
