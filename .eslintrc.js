@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: [
     './.eslintrc-auto-import.json',
-    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommender',
     'standard-with-typescript',
     'prettier'
   ],
