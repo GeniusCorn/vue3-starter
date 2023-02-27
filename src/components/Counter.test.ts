@@ -1,12 +1,18 @@
-import { fireEvent, render } from '@testing-library/vue'
+import { type RenderResult, fireEvent, render } from '@testing-library/vue'
 import Counter from './Counter.vue'
 
-it('test', async () => {
-  const { getByText } = render(Counter, {
+function view(): RenderResult {
+  const view = render(Counter, {
     props: {
       count: 0
     }
   })
+
+  return view
+}
+
+it('test', async () => {
+  const { getByText } = view()
 
   getByText('count: 0')
 
