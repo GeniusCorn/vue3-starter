@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div flex flex-col justify-center items-center gap-4>
+  <div flex="~ col" items-center justify-center gap-4>
     <Header />
 
     <RouterView />

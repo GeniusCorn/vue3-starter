@@ -22,6 +22,7 @@
     "@types/node": "^18.14.2",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
+    "@unocss/eslint-config": "^0.50.1",
     "@unocss/preset-uno": "^0.50.1",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitest/coverage-istanbul": "^0.29.1",

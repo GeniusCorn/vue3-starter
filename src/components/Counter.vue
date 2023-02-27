@@ -11,7 +11,7 @@ function increment() {
 </script>
 
 <template>
-  <div flex flex-row gap-4>
+  <div flex="~ row" gap-4>
     <div>count: {{ count }}</div>
     <button @click="increment">add</button>
   </div>
