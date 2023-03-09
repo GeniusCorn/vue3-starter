@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-json/tabler': ^1.1.64
+  '@iconify-json/tabler': ^1.1.65
   '@testing-library/vue': ^6.6.1
   '@types/node': ^18.14.6
   '@typescript-eslint/eslint-plugin': ^5.54.1
@@ -40,7 +40,7 @@ dependencies:
   vue-router: 4.1.6_vue@3.2.47
 
 devDependencies:
-  '@iconify-json/tabler': 1.1.64
+  '@iconify-json/tabler': 1.1.65
   '@testing-library/vue': 6.6.1_a2ihsjreowava2sm4iorpgwkom
   '@types/node': 18.14.6
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
@@ -533,8 +533,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/tabler/1.1.64:
-    resolution: {integrity: sha512-+QMcM/kNRVUt4AdhuXF18RBR+oEsMqIf+zqQX4SMkwfGUzlENtlh4JAFyoeyEaKMdZfszB2TjV7iswxwbPR5hA==}
+  /@iconify-json/tabler/1.1.65:
+    resolution: {integrity: sha512-lEIOsVWR4sj6AQRo7LamIJwrDGXamToxAIiC/9aE/p8t1i7VX3CvLpQpi8xabOm0+Pl1htfpmqdPwMgXWXn7Ow==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1405,8 +1405,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001460
-      electron-to-chromium: 1.4.321
+      caniuse-lite: 1.0.30001462
+      electron-to-chromium: 1.4.325
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -1434,8 +1434,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001460:
-    resolution: {integrity: sha512-Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==}
+  /caniuse-lite/1.0.30001462:
+    resolution: {integrity: sha512-PDd20WuOBPiasZ7KbFnmQRyuLE7cFXW2PVd7dmALzbkUXEP46upAuCDm9eY9vho8fgNMGmbAX92QBZHzcnWIqw==}
     dev: true
 
   /chai/4.3.7:
@@ -1702,8 +1702,8 @@ packages:
       sigmund: 1.0.1
     dev: true
 
-  /electron-to-chromium/1.4.321:
-    resolution: {integrity: sha512-ERuAqNq7YknVY3+47VbB+Q92kWH7O7sX3mkZINqZtsGJMQFb0dj71d5U3PRTihX03qt2NWIfZic2CCcGXOHJ7A==}
+  /electron-to-chromium/1.4.325:
+    resolution: {integrity: sha512-K1C03NT4I7BuzsRdCU5RWkgZxtswnKDYM6/eMhkEXqKu4e5T+ck610x3FPzu1y7HVFSiQKZqP16gnJzPpji1TQ==}
     dev: true
 
   /emoji-regex/9.2.2:
