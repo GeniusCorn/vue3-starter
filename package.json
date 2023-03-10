@@ -19,7 +19,7 @@
   "devDependencies": {
     "@iconify-json/tabler": "^1.1.65",
     "@testing-library/vue": "^6.6.1",
-    "@types/node": "^18.14.6",
+    "@types/node": "^18.15.0",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "@unocss/eslint-config": "^0.50.4",
