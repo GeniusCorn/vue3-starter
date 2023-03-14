@@ -17,11 +17,11 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@iconify-json/tabler": "^1.1.66",
+    "@iconify-json/tabler": "^1.1.67",
     "@testing-library/vue": "^7.0.0",
-    "@types/node": "^18.15.0",
-    "@typescript-eslint/eslint-plugin": "^5.54.1",
-    "@typescript-eslint/parser": "^5.54.1",
+    "@types/node": "^18.15.2",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
     "@unocss/eslint-config": "^0.50.4",
     "@unocss/preset-uno": "^0.50.4",
     "@vitejs/plugin-vue": "^4.0.0",
@@ -42,7 +42,7 @@
     "unplugin-auto-import": "^0.15.1",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.1.4",
-    "vite-plugin-pages": "^0.28.0",
+    "vite-plugin-pages": "^0.29.0",
     "vite-plugin-vue-layouts": "^0.8.0",
     "vitest": "^0.29.2",
     "vue-tsc": "^1.2.0"
