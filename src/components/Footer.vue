@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div     flex justify-between gap-4 text-xl >
+  <div flex justify-between gap-4 text-xl>
     <a
       icon-btn
       href="https://geniuscorn-vue3-starter.netlify.app/"

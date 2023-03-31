@@ -5,7 +5,7 @@ const props = defineProps<{
 
 const count = ref(props.count)
 
-function increment() {
+function increment(): void {
   count.value = count.value + 1
 }
 </script>
