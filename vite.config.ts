@@ -7,6 +7,7 @@ import Pages from 'vite-plugin-pages'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
 import path from 'path'
+import progress from 'vite-plugin-progress'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
@@ -46,7 +47,8 @@ export default defineConfig({
     Pages(),
     Layouts(),
     // see unocss.config.ts for config
-    Unocss()
+    Unocss(),
+    progress()
   ],
   test: {
     globals: true,
