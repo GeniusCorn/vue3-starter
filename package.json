@@ -17,7 +17,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@iconify-json/tabler": "^1.1.70",
+    "@iconify-json/tabler": "^1.1.71",
     "@rushstack/eslint-patch": "^1.2.0",
     "@testing-library/vue": "^7.0.0",
     "@types/node": "^18.15.11",
@@ -37,7 +37,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-testing-library": "^5.10.2",
     "eslint-plugin-vue": "^9.10.0",
-    "happy-dom": "^9.1.0",
+    "happy-dom": "^9.1.7",
     "prettier": "^2.8.7",
     "typescript": "^5.0.3",
     "unocss": "^0.50.6",
