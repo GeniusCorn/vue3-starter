@@ -5,6 +5,7 @@ import Components from 'unplugin-vue-components/vite'
 import Layouts from 'vite-plugin-vue-layouts'
 import Pages from 'vite-plugin-pages'
 import Unocss from 'unocss/vite'
+import { configDefaults } from 'vitest/config'
 import { defineConfig } from 'vite'
 import path from 'path'
 import progress from 'vite-plugin-progress'
@@ -51,10 +52,11 @@ export default defineConfig({
     progress()
   ],
   test: {
-    globals: true,
     coverage: {
       provider: 'istanbul'
     },
-    environment: 'happy-dom'
+    environment: 'happy-dom',
+    exclude: [...configDefaults.exclude, 'e2e/*'],
+    globals: true
   }
 })

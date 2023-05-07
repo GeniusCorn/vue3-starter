@@ -31,7 +31,15 @@ module.exports = {
         'standard-with-typescript',
         'prettier'
       ],
-      files: ['*.test.ts', '*.spec.ts']
+      files: ['*.test.ts']
+    },
+    {
+      extends: [
+        'standard-with-typescript',
+        'plugin:playwright/playwright-test',
+        'prettier'
+      ],
+      files: ['*.spec.ts']
     }
   ],
   parser: 'vue-eslint-parser',

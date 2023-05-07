@@ -12,6 +12,7 @@ Vue 3 development template for building web applications quickly, integrating Vu
 - [UnoCSS](https://github.com/unocss/unocss)
 - State Management via [Pinia](https://pinia.vuejs.org/)
 - Unit Testing with [Vitest](https://vitest.dev/)
+- E2E Testing with [Playwright](https://playwright.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - Deploy on [Netlify](https://www.netlify.com/), zero-config
 - Always up to date
@@ -45,6 +46,7 @@ Vue 3 development template for building web applications quickly, integrating Vu
 - [pnpm](https://pnpm.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://vitest.dev/)
+- [Playwright](https://playwright.dev/)
 - [Netlify](https://www.netlify.com/)
 
 ## Usage
