@@ -5,6 +5,7 @@ import Components from 'unplugin-vue-components/vite'
 import Layouts from 'vite-plugin-vue-layouts'
 import Pages from 'vite-plugin-pages'
 import Unocss from 'unocss/vite'
+import VueDevTools from 'vite-plugin-vue-devtools'
 import { configDefaults } from 'vitest/config'
 import { defineConfig } from 'vite'
 import path from 'path'
@@ -18,6 +19,7 @@ export default defineConfig({
     }
   },
   plugins: [
+    VueDevTools(),
     vue(),
     AutoImport({
       include: [
