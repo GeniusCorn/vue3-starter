@@ -1,3 +1,6 @@
+<p align='center'>
+  <img src='./public/vue.png' alt='vue3' height='200'/>
+</p>
 # Vue 3 Starter
 
 Vue 3 development template for building web applications quickly, integrating Vue 3, Vite, and popular libraries or development plugins.
@@ -5,17 +8,17 @@ Vue 3 development template for building web applications quickly, integrating Vu
 ## Features
 
 - [Vue 3](https://vuejs.org/), [Vite 3](https://vitejs.dev/), [pnpm](https://pnpm.io/)
-- [APIs Auto Import](https://github.com/antfu/unplugin-auto-import)
-- [Components Auto Import](https://github.com/antfu/unplugin-vue-components)
-- [File based routing](https://github.com/hannoeru/vite-plugin-pages)
-- [Layout System](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
-- [UnoCSS](https://github.com/unocss/unocss)
-- State Management via [Pinia](https://pinia.vuejs.org/)
+- Automatic import of APIs with [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
+- Automatic import of components with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+- File-based routing using [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
+- Flexible layout system with [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- Integration of [UnoCSS](https://unocss.dev/)
+- State management through [Pinia](https://pinia.vuejs.org/)
 - Unit Testing with [Vitest](https://vitest.dev/)
-- E2E Testing with [Playwright](https://playwright.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- Deploy on [Netlify](https://www.netlify.com/), zero-config
-- Always up to date
+- End-to-End testing with [Playwright](https://playwright.dev/)
+- Support of [TypeScript](https://www.typescriptlang.org/)
+- Easy deployment on [Netlify](https://www.netlify.com/) with zero-config
+- Continuous updates to ensure the latest features and improvements
 
 ## Pre-packed
 
