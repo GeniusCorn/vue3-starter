@@ -1,6 +1,7 @@
 <p align='center'>
   <img src='./public/vue.png' alt='vue3' height='200'/>
 </p>
+
 # Vue 3 Starter
 
 Vue 3 development template for building web applications quickly, integrating Vue 3, Vite, and popular libraries or development plugins.
