@@ -17,14 +17,14 @@ dependencies:
 
 devDependencies:
   '@iconify-json/tabler':
-    specifier: ^1.1.78
-    version: 1.1.78
+    specifier: ^1.1.79
+    version: 1.1.79
   '@playwright/test':
     specifier: ^1.34.3
     version: 1.34.3
   '@rushstack/eslint-patch':
-    specifier: ^1.3.0
-    version: 1.3.0
+    specifier: ^1.3.1
+    version: 1.3.1
   '@testing-library/vue':
     specifier: ^7.0.0
     version: 7.0.0(@vue/compiler-sfc@3.3.4)(vue@3.3.4)
@@ -824,8 +824,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/tabler@1.1.78:
-    resolution: {integrity: sha512-WNnRObt9TQ395xjfs9MhTx6YvCKv+S3i1GI22T8OQCkDRmQEdFLqgZgTvfaqcZiR/gRD/jBeTGjEtT3Iiex2Wg==}
+  /@iconify-json/tabler@1.1.79:
+    resolution: {integrity: sha512-O3RtNqP5ZaP8abkLR/JJuqPY2JjsuV1ttK3xttbcCE9Uz11Pu1WpmbGJ8jv75DoAGYoZ784VUgL8oiJcINLblw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -947,8 +947,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rushstack/eslint-patch@1.3.0:
-    resolution: {integrity: sha512-IthPJsJR85GhOkp3Hvp8zFOPK5ynKn6STyHa/WZpioK7E1aYDiBzpqQPrngc14DszIUkIrdd3k9Iu0XSzlP/1w==}
+  /@rushstack/eslint-patch@1.3.1:
+    resolution: {integrity: sha512-RkmuBcqiNioeeBKbgzMlOdreUkJfYaSjwgx9XDgGGpjvWgyaxWvDmZVSN9CS6LjEASadhgPv2BcFp+SeouWXXA==}
     dev: true
 
   /@testing-library/dom@9.3.0:
@@ -1880,7 +1880,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001495
-      electron-to-chromium: 1.4.422
+      electron-to-chromium: 1.4.425
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
     dev: true
@@ -2257,8 +2257,8 @@ packages:
       sigmund: 1.0.1
     dev: true
 
-  /electron-to-chromium@1.4.422:
-    resolution: {integrity: sha512-OQMid0IRbJv27BhlPiBK8CfGzjeq4ZCBSmpwNi1abyS8w17/BajOUu7hBI49ptDTBCz9NRFbORhWvt41dF7dwg==}
+  /electron-to-chromium@1.4.425:
+    resolution: {integrity: sha512-wv1NufHxu11zfDbY4fglYQApMswleE9FL/DSeyOyauVXDZ+Kco96JK/tPfBUaDqfRarYp2WH2hJ/5UnVywp9Jg==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -4241,8 +4241,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup@3.23.1:
-    resolution: {integrity: sha512-ybRdFVHOoljGEFILHLd2g/qateqUdjE6YS41WXq4p3C/WwD3xtWxV4FYWETA1u9TeXQc5K8L8zHE5d/scOvrOQ==}
+  /rollup@3.24.0:
+    resolution: {integrity: sha512-OgraHOIg2YpHQTjl0/ymWfFNBEyPucB7lmhXrQUh38qNOegxLapSPFs9sNr0qKR75awW41D93XafoR2QfhBdUQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -5014,7 +5014,7 @@ packages:
       '@types/node': 20.2.5
       esbuild: 0.17.19
       postcss: 8.4.24
-      rollup: 3.23.1
+      rollup: 3.24.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
