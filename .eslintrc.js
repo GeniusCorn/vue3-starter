@@ -6,17 +6,17 @@ module.exports = {
   },
   extends: [
     '@vue/eslint-config-standard-with-typescript',
-    './.eslintrc-auto-import.json',
     'plugin:vue/vue3-recommended',
+    './.eslintrc-auto-import.json',
     '@unocss',
     'prettier'
   ],
-  ignorePatterns: ['*.d.ts', '*.config.ts', '.eslintrc.js'],
+  ignorePatterns: ['*.d.ts', '*.config.ts', '.eslintrc.js', '*.json'],
   overrides: [
     {
       extends: [
-        './.eslintrc-auto-import.json',
         'standard-with-typescript',
+        './.eslintrc-auto-import.json',
         'prettier'
       ],
       files: ['*.ts', '*.tsx'],
@@ -27,8 +27,8 @@ module.exports = {
     },
     {
       extends: [
-        'plugin:testing-library/vue',
         'standard-with-typescript',
+        'plugin:testing-library/vue',
         'prettier'
       ],
       files: ['*.test.ts']
