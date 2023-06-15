@@ -1,5 +1,4 @@
 module.exports = {
-  root: true,
   env: {
     browser: true,
     es2021: true
@@ -46,10 +45,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
-    sourceType: 'module',
-    project: './tsconfig.json'
+    project: './tsconfig.json',
+    sourceType: 'module'
   },
   plugins: ['vue'],
+  root: true,
   rules: {
     'vue/multi-word-component-names': 'off'
   }
