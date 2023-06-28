@@ -14,7 +14,7 @@ module.exports = {
     'plugin:playwright/playwright-test',
     'prettier',
   ],
-  ignorePatterns: ['*.d.ts', '*.config.ts', '.eslintrc.js', '*.json'],
+  ignorePatterns: ['*.d.ts', '*.config.ts', '.eslintrc.js', '*.json', '*.md'],
   parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaFeatures: {

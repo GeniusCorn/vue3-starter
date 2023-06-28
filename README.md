@@ -43,7 +43,7 @@ Vue 3 development template for building web applications quickly, integrating Vu
 ### Coding Style
 
 - [Prettier](https://prettier.io/), no semi, single quotes
-- [ESLint](https://eslint.org/) with [standard JS](https://standardjs.com/)
+- [ESLint](https://eslint.org/) with recommended
 
 ### Dev Tools
 
@@ -81,4 +81,4 @@ pnpm build
 
 ## Deploy on Netlify
 
-Go to Netlify, add new site and import an existing project from your git repository, just click deploy site and the app will be live soon.
+Go to Netlify, add a new site and import an existing project from your git repository, just click deploy the site and the app will be live soon.
