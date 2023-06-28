@@ -1,11 +1,12 @@
-import { type RenderResult, fireEvent, render } from '@testing-library/vue'
+import { fireEvent, render } from '@testing-library/vue'
+
 import Counter from './Counter.vue'
 
-function view(): RenderResult {
+function view() {
   const view = render(Counter, {
     props: {
-      count: 0
-    }
+      count: 0,
+    },
   })
 
   return view

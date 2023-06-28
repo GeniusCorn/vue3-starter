@@ -1,56 +1,32 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    node: true,
   },
   extends: [
-    '@vue/eslint-config-standard-with-typescript',
     'plugin:vue/vue3-recommended',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     './.eslintrc-auto-import.json',
     '@unocss',
-    'prettier'
+    'plugin:testing-library/vue',
+    'plugin:playwright/playwright-test',
+    'prettier',
   ],
   ignorePatterns: ['*.d.ts', '*.config.ts', '.eslintrc.js', '*.json'],
-  overrides: [
-    {
-      extends: [
-        'standard-with-typescript',
-        './.eslintrc-auto-import.json',
-        'prettier'
-      ],
-      files: ['*.ts', '*.tsx'],
-      parserOptions: {
-        parser: '@typescript-eslint/parser',
-        project: './tsconfig.json'
-      }
-    },
-    {
-      extends: [
-        'standard-with-typescript',
-        'plugin:testing-library/vue',
-        'prettier'
-      ],
-      files: ['*.test.ts']
-    },
-    {
-      extends: [
-        'standard-with-typescript',
-        'plugin:playwright/playwright-test',
-        'prettier'
-      ],
-      files: ['*.spec.ts']
-    }
-  ],
   parser: 'vue-eslint-parser',
   parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
-    project: './tsconfig.json',
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: ['vue'],
+  plugins: ['vue', '@typescript-eslint'],
   root: true,
   rules: {
-    'vue/multi-word-component-names': 'off'
-  }
+    'vue/multi-word-component-names': 'off',
+  },
 }

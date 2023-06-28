@@ -8,7 +8,7 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div i-tabler-network></div>
+      <div i-tabler-network />
     </a>
 
     <a icon-btn href="mailto:hi@nicecorn.com">
