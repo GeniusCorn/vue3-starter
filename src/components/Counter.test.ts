@@ -1,25 +1,23 @@
-import { fireEvent, render } from '@testing-library/vue'
+import { shallowMount } from '@vue/test-utils'
 
 import Counter from './Counter.vue'
 
-function view() {
-  const view = render(Counter, {
+describe('counter', () => {
+  const wrapper = shallowMount(Counter, {
     props: {
       count: 0,
     },
   })
 
-  return view
-}
+  const counter = wrapper.get(`[data-test]="counter"`)
 
-it('test', async () => {
-  const { getByText } = view()
+  it('should be rendered', () => {
+    expect(counter.text()).toBe('count: 0')
+  })
 
-  getByText('count: 0')
+  it('should be plus one', async () => {
+    await wrapper.find('button').trigger('click')
 
-  const button = getByText('add')
-
-  await fireEvent.click(button)
-
-  getByText('count: 1')
+    expect(counter.text()).toBe('count: 1')
+  })
 })
