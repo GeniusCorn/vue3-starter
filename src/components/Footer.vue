@@ -4,7 +4,7 @@
   <div flex justify-between gap-4 text-xl>
     <a
       icon-btn
-      href="https://geniuscorn-vue3-starter.netlify.app/"
+      href="https://vue3-starter.nicecorn.com/"
       target="_blank"
       rel="noopener noreferrer"
     >
