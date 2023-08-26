@@ -15,6 +15,7 @@
     "PropType": true,
     "Ref": true,
     "VNode": true,
+    "WritableComputedRef": true,
     "afterAll": true,
     "afterEach": true,
     "assert": true,
