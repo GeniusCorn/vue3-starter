@@ -1,5 +1,6 @@
 /// <reference types="vitest" />
 
+import path from 'node:path'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -9,7 +10,6 @@ import VueRouter from 'unplugin-vue-router/vite'
 import { configDefaults } from 'vitest/config'
 import { defineConfig } from 'vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
-import path from 'path'
 import progress from 'vite-plugin-progress'
 import vue from '@vitejs/plugin-vue'
 

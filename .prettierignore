@@ -1,5 +1,0 @@
-dist/*
-
-*.d.ts
-.eslintrc-auto-import.json
-pnpm-lock.yaml

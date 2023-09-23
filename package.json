@@ -1,28 +1,20 @@
 {
   "name": "vue3-starter",
+  "type": "module",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "vue-tsc && vite build",
     "coverage": "vitest run --coverage",
     "dev": "vite",
-    "format": "prettier --write src/",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "eslint .",
     "lint-staged": "lint-staged",
+    "lint:fix": "eslint . --fix",
     "prepare": "simple-git-hooks",
     "preview": "vite preview",
     "test": "vitest",
     "test:e2e": "playwright test",
     "test:e2e-ui": "playwright test --ui"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged",
-    "pre-push": "pnpm format"
-  },
-  "lint-staged": {
-    "*": [
-      "pnpm lint"
-    ]
   },
   "dependencies": {
     "pinia": "^2.1.6",
@@ -30,24 +22,17 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.6",
     "@iconify-json/tabler": "^1.1.91",
     "@playwright/test": "^1.38.1",
-    "@rushstack/eslint-patch": "^1.4.0",
     "@types/node": "^20.6.3",
-    "@typescript-eslint/eslint-plugin": "^6.7.2",
-    "@typescript-eslint/parser": "^6.7.2",
     "@unocss/eslint-config": "^0.56.1",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vitest/coverage-istanbul": "^0.34.5",
     "@vue/compiler-sfc": "^3.3.4",
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.50.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.1.0",
     "eslint-plugin-playwright": "^0.16.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-vue": "^9.17.0",
     "happy-dom": "^12.1.6",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
@@ -63,5 +48,13 @@
     "vite-plugin-vue-layouts": "^0.8.0",
     "vitest": "^0.34.5",
     "vue-tsc": "^1.8.13"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint --fix"
+    ]
   }
 }
