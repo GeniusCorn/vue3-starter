@@ -3,11 +3,11 @@ import { setupLayouts } from 'virtual:generated-layouts'
 
 const router = createRouter({
   history: createWebHistory(),
-  extendRoutes: (routes) => setupLayouts(routes),
+  extendRoutes: routes => setupLayouts(routes),
   scrollBehavior(to, from, savedPosition) {
-    if (savedPosition !== null) {
+    if (savedPosition !== null)
       return savedPosition
-    }
+
     return { left: 0, top: 0 }
   },
 })

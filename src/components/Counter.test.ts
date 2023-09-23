@@ -9,7 +9,7 @@ describe('counter', () => {
     },
   })
 
-  const counter = wrapper.get(`[data-test]="counter"`)
+  const counter = wrapper.get('[data-test]="counter"')
 
   it('should be rendered', () => {
     expect(counter.text()).toBe('count: 0')

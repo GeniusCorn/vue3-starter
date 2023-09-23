@@ -12,8 +12,12 @@ function increment() {
 
 <template>
   <div flex="~ row" gap-4>
-    <div data-test="counter">count: {{ count }}</div>
-    <button @click="increment">add</button>
+    <div data-test="counter">
+      count: {{ count }}
+    </div>
+    <button @click="increment">
+      add
+    </button>
   </div>
 </template>
 
