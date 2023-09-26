@@ -22,23 +22,23 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.7",
-    "@iconify-json/tabler": "^1.1.91",
+    "@antfu/eslint-config": "1.0.0-beta.10",
+    "@iconify-json/tabler": "^1.1.92",
     "@playwright/test": "^1.38.1",
-    "@types/node": "^20.6.4",
-    "@unocss/eslint-config": "^0.56.1",
+    "@types/node": "^20.7.0",
+    "@unocss/eslint-config": "^0.56.4",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vitest/coverage-istanbul": "^0.34.5",
     "@vue/compiler-sfc": "^3.3.4",
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.50.0",
     "eslint-plugin-playwright": "^0.16.0",
-    "happy-dom": "^12.1.6",
+    "happy-dom": "^12.2.0",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.2.2",
-    "unocss": "^0.56.1",
+    "unocss": "^0.56.4",
     "unplugin-auto-import": "^0.16.6",
     "unplugin-vue-components": "^0.25.2",
     "unplugin-vue-router": "^0.7.0",
@@ -47,7 +47,7 @@
     "vite-plugin-vue-devtools": "1.0.0-rc.5",
     "vite-plugin-vue-layouts": "^0.8.0",
     "vitest": "^0.34.5",
-    "vue-tsc": "^1.8.13"
+    "vue-tsc": "^1.8.15"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
