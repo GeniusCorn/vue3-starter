@@ -22,10 +22,10 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.10",
+    "@antfu/eslint-config": "1.0.0-beta.13",
     "@iconify-json/tabler": "^1.1.92",
     "@playwright/test": "^1.38.1",
-    "@types/node": "^20.7.0",
+    "@types/node": "^20.7.1",
     "@unocss/eslint-config": "^0.56.4",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vitest/coverage-istanbul": "^0.34.5",
@@ -33,7 +33,7 @@
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.50.0",
     "eslint-plugin-playwright": "^0.16.0",
-    "happy-dom": "^12.2.0",
+    "happy-dom": "^12.2.1",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "simple-git-hooks": "^2.9.0",
