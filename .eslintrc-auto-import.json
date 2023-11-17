@@ -11,6 +11,9 @@
     "ComponentPublicInstance": true,
     "ComputedRef": true,
     "EffectScope": true,
+    "ExtractDefaultPropTypes": true,
+    "ExtractPropTypes": true,
+    "ExtractPublicPropTypes": true,
     "InjectionKey": true,
     "PropType": true,
     "Ref": true,
@@ -85,9 +88,6 @@
     "watch": true,
     "watchEffect": true,
     "watchPostEffect": true,
-    "watchSyncEffect": true,
-    "ExtractDefaultPropTypes": true,
-    "ExtractPropTypes": true,
-    "ExtractPublicPropTypes": true
+    "watchSyncEffect": true
   }
 }
