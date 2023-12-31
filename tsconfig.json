@@ -19,7 +19,6 @@
     "types": [
       "vitest",
       "vite/client",
-      "vue/ref-macros",
       "vite-plugin-vue-layouts/client"
     ],
     "allowJs": true,
