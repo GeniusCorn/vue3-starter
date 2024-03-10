@@ -9,7 +9,7 @@
     "useDefineForClassFields": true,
     "baseUrl": ".",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "paths": {
       "@/*": [
         "src/*"
@@ -19,6 +19,7 @@
     "types": [
       "vitest",
       "vite/client",
+      "unplugin-vue-router/client",
       "vite-plugin-vue-layouts/client"
     ],
     "allowJs": true,
@@ -32,6 +33,9 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
+  "include": [
+    "./typed-router.d.ts"
+  ],
   "exclude": [
     "dist",
     "node_modules"
