@@ -42,7 +42,7 @@ export default defineConfig({
 
       dirs: [],
 
-      dts: './auto-imports.d.ts',
+      dts: true,
 
       vueTemplate: true,
 
